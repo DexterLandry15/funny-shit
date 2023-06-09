@@ -6,7 +6,7 @@ function test() {
 			{width: 340},
 			{width: 0}
 		],
-		duration: 4000,
+		duration: 6000,
 		easing: 'spring(1, 100, 100, 0)',
 
 	})
@@ -19,7 +19,7 @@ function test() {
 			{width: 330},
 			{width: 0}
 		],
-		duration: 3300,
-		delay: 150,
+		duration: 4200,
+		delay: 450,
 	})
   }
