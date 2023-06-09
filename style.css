@@ -1,0 +1,49 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	position: relative;
+	width: 340px;
+	height: 100px;
+}
+
+.green {
+	position: absolute;
+	background-color: #1dd75e;
+	width: 0px;
+	height: 100px;
+}
+
+.black {
+	position: absolute;
+	background-color: #131313;
+	width: 0px;
+	height: 100px;
+	overflow: hidden;
+}
+
+.text {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 0 5px 0 5px;
+	width: 320px;
+	height: 100px;
+	font-family: 'Google Sans';
+}
+
+.title {
+	color: #f8f8f8;
+	font-weight: 500;
+	font-size: 18px;
+}
+.action {
+	color: #a0a0a0;
+	font-weight: 500;
+	font-size: 16px;
+}
